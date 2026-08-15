@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { Github, Linkedin, Instagram, VolumeX, Volume2, FileDown, ArrowDown } from "lucide-react";
 import heroReel from "@/assets/hero-reel.mp4";
 import avatar from "@/assets/vaishak-avatar.png";
+
 import { BRAND, EMAIL, GITHUB, INSTAGRAM, LINKEDIN, NAME, TITLE } from "./data";
 
 export function Preloader({ onDone }: { onDone: () => void }) {
